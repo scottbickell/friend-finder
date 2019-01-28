@@ -1,0 +1,25 @@
+{
+  "name": "11-friendfinder",
+  "version": "1.0.0",
+  "description": "Friend Finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottbickell/friend-finder.git"
+  },
+  "author": "Scott Bickell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottbickell/friend-finder/issues"
+  },
+  "homepage": "https://github.com/scottbickell/friend-finder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "path": "^0.12.7"
+  }
+}

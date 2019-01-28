@@ -10,7 +10,8 @@ input, select {
     margin-bottom: 1.5em;
 }
 
-h1, h2 {
+h1, h2, h3 {
+    color: orange;
     font-weight: bold;
 }
 
@@ -18,4 +19,7 @@ h1, h2 {
     color: #ffffff;
     background: orange;
     border-bottom: 3px solid #ffffff;
+}
+span.required {
+    color: orange;
 }
